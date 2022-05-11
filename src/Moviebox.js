@@ -16,9 +16,9 @@ const MovieBox = ({
 
   return (
     <div className="card text-center bg-secondary mb-3">
-      <div>
+      <div className="card-body">
         <img className="card-img-top" src={API_IMG + poster_path} alt="poster" />
-        <div className="card-body">
+        <div className="d-flex justify-content-center card-body">
           <button type="button" className="btn btn-dark" onClick={handleShow}>
             View More
           </button>
